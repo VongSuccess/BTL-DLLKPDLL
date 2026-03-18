@@ -1,0 +1,3 @@
+model,F1_macro
+Baseline_RF_Classifier,0.9160005338861646
+XGBClassifier,0.9039482227274505

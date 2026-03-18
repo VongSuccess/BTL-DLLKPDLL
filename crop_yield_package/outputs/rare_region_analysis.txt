@@ -1,0 +1,15 @@
+Rare region count: 12
+Rare-region F1_macro: 0.9090
+Một số vùng hiếm:
+Finland
+Norway
+Netherlands
+Sweden
+Ireland
+Latvia
+Estonia
+Denmark
+Bahrain
+Sudan
+Belgium
+Montenegro

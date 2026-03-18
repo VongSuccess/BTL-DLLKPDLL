@@ -1,0 +1,16 @@
+Best k: 4, silhouette: 0.1895
+
+Mode of area:
+cluster
+0        India
+1       Mexico
+2       Brazil
+3    Australia
+
+
+Mode of item:
+cluster
+0      Maize
+1      Wheat
+2    Cassava
+3      Wheat

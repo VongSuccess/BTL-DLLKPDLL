@@ -1,0 +1,12 @@
+Khuyến nghị canh tác ở mức mô tả, suy ra từ các luật gắn với high_yield:
+
+- Nếu điều kiện gồm [area=Brazil, high_yield=not_high_yield] thì xác suất đi kèm năng suất cao tăng lên (confidence=1.00, lift=16.12).
+- Nếu điều kiện gồm [area=Brazil, not_high_yield] thì xác suất đi kèm năng suất cao tăng lên (confidence=1.00, lift=16.12).
+- Nếu điều kiện gồm [average_rain_fall_mm_per_year=(1387.333, 3240.0], high_yield=not_high_yield, pesticides_tonnes=(37200.78, 367778.0], unnamed:_0=(-0.001, 9427.333]] thì xác suất đi kèm năng suất cao tăng lên (confidence=0.89, lift=16.12).
+- Nếu điều kiện gồm [average_rain_fall_mm_per_year=(1387.333, 3240.0], not_high_yield, pesticides_tonnes=(37200.78, 367778.0], unnamed:_0=(-0.001, 9427.333]] thì xác suất đi kèm năng suất cao tăng lên (confidence=0.89, lift=16.12).
+- Nếu điều kiện gồm [area=Brazil, high_yield=not_high_yield] thì xác suất đi kèm năng suất cao tăng lên (confidence=1.00, lift=11.71).
+- Nếu điều kiện gồm [area=Brazil, not_high_yield] thì xác suất đi kèm năng suất cao tăng lên (confidence=1.00, lift=11.71).
+- Nếu điều kiện gồm [area=Brazil, high_yield=not_high_yield, unnamed:_0=(-0.001, 9427.333]] thì xác suất đi kèm năng suất cao tăng lên (confidence=1.00, lift=11.71).
+- Nếu điều kiện gồm [area=Brazil, not_high_yield, unnamed:_0=(-0.001, 9427.333]] thì xác suất đi kèm năng suất cao tăng lên (confidence=1.00, lift=11.71).
+- Nếu điều kiện gồm [average_rain_fall_mm_per_year=(1387.333, 3240.0], high_yield=not_high_yield, pesticides_tonnes=(37200.78, 367778.0]] thì xác suất đi kèm năng suất cao tăng lên (confidence=0.65, lift=11.71).
+- Nếu điều kiện gồm [average_rain_fall_mm_per_year=(1387.333, 3240.0], not_high_yield, pesticides_tonnes=(37200.78, 367778.0]] thì xác suất đi kèm năng suất cao tăng lên (confidence=0.65, lift=11.71).

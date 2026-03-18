@@ -1,0 +1,9 @@
+column,dtype,missing,nunique
+unnamed:_0,int64,0,27881
+area,object,0,101
+item,object,0,10
+year,Int64,0,23
+hg_ha_yield,int64,0,11344
+average_rain_fall_mm_per_year,float64,0,100
+pesticides_tonnes,float64,0,1673
+avg_temp,float64,0,1831

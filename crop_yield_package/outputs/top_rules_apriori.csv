@@ -1,0 +1,16 @@
+antecedents,consequents,support,confidence,lift
+"area=Brazil, high_yield=not_high_yield","average_rain_fall_mm_per_year=(1387.333, 3240.0], not_high_yield, pesticides_tonnes=(37200.78, 367778.0], unnamed:_0=(-0.001, 9427.333]",0.055234747677629925,1.0,16.116184971098267
+"area=Brazil, not_high_yield","average_rain_fall_mm_per_year=(1387.333, 3240.0], high_yield=not_high_yield, pesticides_tonnes=(37200.78, 367778.0], unnamed:_0=(-0.001, 9427.333]",0.055234747677629925,1.0,16.116184971098267
+"average_rain_fall_mm_per_year=(1387.333, 3240.0], high_yield=not_high_yield, pesticides_tonnes=(37200.78, 367778.0], unnamed:_0=(-0.001, 9427.333]","area=Brazil, not_high_yield",0.055234747677629925,0.8901734104046243,16.116184971098267
+"average_rain_fall_mm_per_year=(1387.333, 3240.0], not_high_yield, pesticides_tonnes=(37200.78, 367778.0], unnamed:_0=(-0.001, 9427.333]","area=Brazil, high_yield=not_high_yield",0.055234747677629925,0.8901734104046243,16.116184971098267
+"area=Brazil, high_yield=not_high_yield","average_rain_fall_mm_per_year=(1387.333, 3240.0], not_high_yield, pesticides_tonnes=(37200.78, 367778.0]",0.055234747677629925,1.0,11.714705882352941
+"area=Brazil, not_high_yield","average_rain_fall_mm_per_year=(1387.333, 3240.0], high_yield=not_high_yield, pesticides_tonnes=(37200.78, 367778.0]",0.055234747677629925,1.0,11.714705882352941
+"area=Brazil, high_yield=not_high_yield, unnamed:_0=(-0.001, 9427.333]","average_rain_fall_mm_per_year=(1387.333, 3240.0], not_high_yield, pesticides_tonnes=(37200.78, 367778.0]",0.055234747677629925,1.0,11.714705882352941
+"area=Brazil, not_high_yield, unnamed:_0=(-0.001, 9427.333]","average_rain_fall_mm_per_year=(1387.333, 3240.0], high_yield=not_high_yield, pesticides_tonnes=(37200.78, 367778.0]",0.055234747677629925,1.0,11.714705882352941
+"average_rain_fall_mm_per_year=(1387.333, 3240.0], high_yield=not_high_yield, pesticides_tonnes=(37200.78, 367778.0]","area=Brazil, not_high_yield",0.055234747677629925,0.6470588235294117,11.71470588235294
+"average_rain_fall_mm_per_year=(1387.333, 3240.0], not_high_yield, pesticides_tonnes=(37200.78, 367778.0]","area=Brazil, high_yield=not_high_yield",0.055234747677629925,0.6470588235294117,11.71470588235294
+"average_rain_fall_mm_per_year=(1387.333, 3240.0], high_yield=not_high_yield, pesticides_tonnes=(37200.78, 367778.0]","area=Brazil, not_high_yield, unnamed:_0=(-0.001, 9427.333]",0.055234747677629925,0.6470588235294117,11.71470588235294
+"average_rain_fall_mm_per_year=(1387.333, 3240.0], not_high_yield, pesticides_tonnes=(37200.78, 367778.0]","area=Brazil, high_yield=not_high_yield, unnamed:_0=(-0.001, 9427.333]",0.055234747677629925,0.6470588235294117,11.71470588235294
+"area=Brazil, high_yield=not_high_yield","not_high_yield, pesticides_tonnes=(37200.78, 367778.0], unnamed:_0=(-0.001, 9427.333]",0.055234747677629925,1.0,10.989751675206938
+"area=Brazil, not_high_yield","high_yield=not_high_yield, pesticides_tonnes=(37200.78, 367778.0], unnamed:_0=(-0.001, 9427.333]",0.055234747677629925,1.0,10.989751675206938
+"area=Brazil, average_rain_fall_mm_per_year=(1387.333, 3240.0], high_yield=not_high_yield","not_high_yield, pesticides_tonnes=(37200.78, 367778.0], unnamed:_0=(-0.001, 9427.333]",0.055234747677629925,1.0,10.989751675206938

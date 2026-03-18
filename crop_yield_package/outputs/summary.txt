@@ -1,0 +1,41 @@
+Dataset: data\yield_df.csv
+Số dòng sau làm sạch: 27881
+Target column: hg_ha_yield
+Year column: year
+Area column: area
+Crop column: item
+
+== Regression ==
+           model          MAE         RMSE       R2
+    RandomForest  9550.711591 18909.140084 0.949034
+    XGBRegressor 10301.182617 19002.867152 0.948528
+           Ridge 29716.482784 43703.415067 0.727752
+LinearRegression 29911.405131 43752.962347 0.727134
+
+Split note: Time split theo năm: train <= 2008, test > 2008
+
+== Classification ==
+                 model  F1_macro
+Baseline_RF_Classifier  0.916001
+         XGBClassifier  0.903948
+
+== Clustering ==
+Best k: 4, silhouette: 0.1895
+ cluster  count         mean  median   min    max
+       0  11321 70387.159880 32405.0   929 349594
+       1  10664 68898.405008 35199.0    50 355757
+       2    990 84080.500000 45954.5 15927 277517
+       3   4906 84363.246025 54929.0   578 357127
+
+== Top FP-Growth Rules ==
+                                                                                                                                       antecedents                                                                                                                                        consequents  support  confidence      lift
+                                                                                                            area=Brazil, high_yield=not_high_yield            average_rain_fall_mm_per_year=(1387.333, 3240.0], not_high_yield, pesticides_tonnes=(37200.78, 367778.0], unnamed:_0=(-0.001, 9427.333] 0.055235    1.000000 16.116185
+                                                                                                                       area=Brazil, not_high_yield average_rain_fall_mm_per_year=(1387.333, 3240.0], high_yield=not_high_yield, pesticides_tonnes=(37200.78, 367778.0], unnamed:_0=(-0.001, 9427.333] 0.055235    1.000000 16.116185
+average_rain_fall_mm_per_year=(1387.333, 3240.0], high_yield=not_high_yield, pesticides_tonnes=(37200.78, 367778.0], unnamed:_0=(-0.001, 9427.333]                                                                                                                        area=Brazil, not_high_yield 0.055235    0.890173 16.116185
+           average_rain_fall_mm_per_year=(1387.333, 3240.0], not_high_yield, pesticides_tonnes=(37200.78, 367778.0], unnamed:_0=(-0.001, 9427.333]                                                                                                             area=Brazil, high_yield=not_high_yield 0.055235    0.890173 16.116185
+                                                                                                            area=Brazil, high_yield=not_high_yield                                           average_rain_fall_mm_per_year=(1387.333, 3240.0], not_high_yield, pesticides_tonnes=(37200.78, 367778.0] 0.055235    1.000000 11.714706
+                                                                                                                       area=Brazil, not_high_yield                                average_rain_fall_mm_per_year=(1387.333, 3240.0], high_yield=not_high_yield, pesticides_tonnes=(37200.78, 367778.0] 0.055235    1.000000 11.714706
+                                                                             area=Brazil, high_yield=not_high_yield, unnamed:_0=(-0.001, 9427.333]                                           average_rain_fall_mm_per_year=(1387.333, 3240.0], not_high_yield, pesticides_tonnes=(37200.78, 367778.0] 0.055235    1.000000 11.714706
+                                                                                        area=Brazil, not_high_yield, unnamed:_0=(-0.001, 9427.333]                                average_rain_fall_mm_per_year=(1387.333, 3240.0], high_yield=not_high_yield, pesticides_tonnes=(37200.78, 367778.0] 0.055235    1.000000 11.714706
+                               average_rain_fall_mm_per_year=(1387.333, 3240.0], high_yield=not_high_yield, pesticides_tonnes=(37200.78, 367778.0]                                                                                                                        area=Brazil, not_high_yield 0.055235    0.647059 11.714706
+                                          average_rain_fall_mm_per_year=(1387.333, 3240.0], not_high_yield, pesticides_tonnes=(37200.78, 367778.0]                                                                                                             area=Brazil, high_yield=not_high_yield 0.055235    0.647059 11.714706

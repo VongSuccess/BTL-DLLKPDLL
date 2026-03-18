@@ -1,0 +1,2 @@
+Time split theo năm: train <= 2008, test > 2008
+Best model: RandomForest

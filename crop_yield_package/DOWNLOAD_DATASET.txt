@@ -1,0 +1,20 @@
+# Tải dataset Kaggle
+
+## Cách 1: Kaggle API
+1. Cài Kaggle API:
+   pip install kaggle
+2. Vào Kaggle > Account > Create New Token để lấy `kaggle.json`.
+3. Đặt `kaggle.json` vào:
+   - Windows: %USERPROFILE%\.kaggle\kaggle.json
+   - Linux/macOS: ~/.kaggle/kaggle.json
+4. Chạy lệnh:
+   kaggle datasets download -d patelris/crop-yield-prediction-dataset -p data --unzip
+
+## Cách 2: Tải thủ công
+- Mở trang dataset:
+  https://www.kaggle.com/datasets/patelris/crop-yield-prediction-dataset/data
+- Tải file CSV rồi bỏ vào thư mục `data/` cạnh file Python.
+
+## File thường gặp
+- yield_df.csv
+- yield.csv
